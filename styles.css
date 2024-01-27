@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    text-align: center;
+    color: #333; /* Dark gray text color */
+}
+
+h1 {
+    color: #3399cc; /* Blue header color */
+}
+
+#countdown {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #3366cc; /* Dark blue header color */
+}
+
+#countdown-text {
+    font-size: 1.5em;
+    color: #cc3300; /* Red text color */
+}
