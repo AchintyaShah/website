@@ -36,3 +36,46 @@ h2 {
     font-size: 1.5em;
     color: #cc3300; /* Red text color */
 }
+/* ... (existing styles) */
+
+#user-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#user-info h2 {
+    color: #3366cc; /* Dark blue header color */
+}
+
+#info-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #333; /* Dark gray text color */
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50; /* Green button color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
