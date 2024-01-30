@@ -7,15 +7,6 @@
     <title>Achintya Shah's Website</title>
 </head>
 <body>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4K0MNE1W84"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4K0MNE1W84');
-</script>
     <div class="container">
         <header>
             <h1>Achintya Shah</h1>
@@ -25,6 +16,19 @@
         <section id="countdown">
             <h2>Random Countdown</h2>
             <p id="countdown-text"></p>
+        </section>
+        
+        <section id="user-info">
+            <h2>Provide Your Information</h2>
+            <form id="info-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </div>
     <script src="script.js"></script>
